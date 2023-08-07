@@ -11,12 +11,8 @@
 //then use gradient decent
 
 
-using MathNet.Symbolics;
+
 using MathNet.Numerics.LinearAlgebra;
-using MathNet.Numerics.LinearAlgebra.Double;
-
-
-
 class Node
 {
     private Matrix<double> Weights;  //one weight vector for each number 
